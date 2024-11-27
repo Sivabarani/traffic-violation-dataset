@@ -1,5 +1,5 @@
+# Traffic Violation dataset
 This dataset contains traffic-related violation records.
-
 The goal of this dataset is to predict the stop outcomes of a violation based on various violation types and other features.
 
 **Understanding Supervised Learning**
@@ -30,5 +30,5 @@ Other: Other outcomes, such as the stop being cleared without further action.
 The primary objective of this analysis is to predict the stop_outcome based on other features. While the stop_outcome column is our main focus, we may also explore how other features, such as violation_raw, violation, and drugs_related_stop, contribute to the prediction of the stop outcome.
 
 **Understanding Data Relationships**
-Dependent Variable: The stop_outcome column is the target variable we aim to predict.
-Independent Variables: Other features in the dataset, such as violation_raw, violation, drugs_related_stop, driver_age, and driver_gender, will be used to predict the stop_outcome.
+**_1. Dependent Variable:_** The stop_outcome column is the target variable we aim to predict.
+**_2. Independent Variables:_** Other features in the dataset, such as violation_raw, violation, drugs_related_stop, driver_age, and driver_gender, will be used to predict the stop_outcome.
